@@ -7,11 +7,12 @@ import reducers from './src/store/reducers'
 
 
 const store = createStore(reducers);
-
+//
 const App = () => {
     return (
         <Provider  store={store}>
             <Todo />
+
         </Provider>
     );
 };
